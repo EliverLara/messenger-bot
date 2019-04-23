@@ -1,0 +1,30 @@
+{
+  "name": "messenger-bot",
+  "version": "1.0.0",
+  "description": "facebook messenger bot",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EliverLara/messenger-bot.git"
+  },
+  "keywords": [
+    "messenger",
+    "bot",
+    "node"
+  ],
+  "author": "EliverLara",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EliverLara/messenger-bot/issues"
+  },
+  "homepage": "https://github.com/EliverLara/messenger-bot#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "request": "^2.88.0"
+  }
+}
